@@ -1,19 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tailwindcss</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="bg-blue-100 sm:bg-blue-300">
-  >
-    <h3 class="text-amber-800 text-center font-bold text-4xl my-8">
-      
+  <body class="bg-blue-100 dark:bg-gray-800">
+    >
+    <h3
+      class="text-amber-800 text-center font-bold text-4xl my-8 dark:text-blue-200"
+    >
       Learning Tailwind is fun
     </h3>
-    <button class="bg-blue-400 py-2 px-5 rounded-full text-white font-semibold mx-auto block hover:bg-green-400 hover:text-black hover:transition-colors my-3 focus:ring-4 focus:ring-green-400 focus:outline-none">Contact Us</button>
-    
-    
+    <button
+    id="btn"
+      class="bg-green-400 py-2 px-5 rounded-full text-white font-semibold mx-auto block hover:bg-green-400 hover:text-black hover:transition-colors my-3 focus:ring-4 focus:ring-green-400 focus:outline-none"
+    >
+      Light/Dark
+    </button>
+    <button
+      class="bg-blue-400 py-2 px-5 rounded-full text-white font-semibold mx-auto block hover:bg-green-400 hover:text-black hover:transition-colors my-3 focus:ring-4 focus:ring-green-400 focus:outline-none"
+    >
+      Contact Us
+    </button>
+
+    <script src="./app.js"></script>
   </body>
 </html>
