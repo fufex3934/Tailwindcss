@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-h2{
-  color:brown;
-  font-size:34px;
-  font-weight:700;
-  text-align:center;
-  margin:20px auto;
+/* ul{
 
 }
 
-.title{
-  color:blueviolet;
-  font-size:18px;
-  margin:0
+ul li:last-child{
+  background:red;
 }
+
+ul li:first-child{
+  background:green;
+} */
+
