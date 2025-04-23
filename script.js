@@ -34,3 +34,7 @@ mobile_btn.addEventListener("click",function(){
   main_menu.classList.toggle("hidden");
   
 });
+
+//footer
+const year = new Date().getFullYear();
+document.getElementById("currentYear").textContent = year;
